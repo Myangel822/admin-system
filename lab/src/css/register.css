@@ -1,0 +1,107 @@
+.registertop {
+	font-size: 4rem;
+}
+.registerlogo {
+	margin-left: 20vw;
+}
+.registermain {
+	position: relative;
+	width: 99vw;
+	height: 80vh;
+	background: url(../assets/mainbackground.jpg) no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.registerform {
+	position: relative;
+	width: 55rem;
+	height: 45rem;
+	background-color: rgba(246, 250, 253,0.5);
+}
+.registertip {
+	margin: 15px 10px;
+	width: 60rem;
+	height: 6rem;
+	line-height: 6rem;
+	color: black;
+	font-size: 1.8rem;
+	border-bottom: #DCDCDC solid 1px;
+}
+.registerform .el-input {
+	width: 67%;
+	height: 3.5rem;
+	border-radius: 10px !important;
+}
+.verifyinput .el-input__inner {
+	text-align: center;
+}
+.registerform .verifyinput {
+	width: 33%;
+	height: 5rem;
+	font-size: 2rem;
+	border-radius: 10px !important;
+}
+.registerform .verifypicture {
+	display: inline-block;
+	margin-left: 0.5rem;
+	width: 33%;
+	height: 5rem;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+}
+.registerform .el-button {
+	width: 67%;
+	height: 5rem;
+	color: white;
+	background-color: rgb(80, 137, 218);
+	font-size: 2.2rem !important;
+	font-weight: 700 !important;
+}
+.registerform .el-button span {
+	cursor: pointer;
+}
+.registertologin span{
+	float: right;
+	margin-right: 10rem;
+}
+.verifypicture  {
+	text-align: center;
+}
+.verifypicture:hover{
+	cursor: pointer;
+}
+.verifypicture span:hover{
+	cursor: pointer;
+}
+.verifypicture span{
+	font-size: 2.2rem;
+	color: black;
+	display: inline-block;
+	width: 20%;
+	height: 5rem;
+	overflow: hidden;
+}
+.registertologin a {
+	color: black;
+	cursor: pointer;
+}
+.registertologin a:hover{
+	color: deepskyblue;
+}
+@media screen and (max-width:768px) {
+	.registertop {
+		display: none;
+	}
+	.registerform {
+		width: 100%;
+		height: 45rem;
+	}
+	.verifyinput .el-input__inner{
+		font-size: 1.2rem;
+	}
+	.verifypicture span {
+		font-size: 1.5rem;
+	}
+}

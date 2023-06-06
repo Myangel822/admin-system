@@ -1,0 +1,55 @@
+/* 成果css */
+.topnav {
+	margin-left: 50px;
+	width: 800px;
+	height: 58px;
+	line-height: 58px;
+	border-bottom: deepskyblue solid 2px !important;
+}
+.topnav .navtitle{
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 135px;
+	color: rgb(8, 118, 197);
+	font-size: 22px;
+}
+.topnav .el-breadcrumb{
+	position: relative;
+	top: 15px;
+	width: 270px;
+	display: inline-block;
+	float: right !important;
+	font-size: 12px !important;
+	color: rgb(139, 139, 139);
+}
+@media screen and (max-width:768px) {
+	.topnav .el-breadcrumb{
+		width: auto !important;
+	}
+}
+.topnav:hover {
+	cursor: default !important;
+}
+li {
+	position: relative;
+}
+.acinfo {
+	display: inline-block;
+	height: auto;
+	width: 700px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.acdate {
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+}
+.acinfo:hover{
+	cursor: pointer;
+}
+.acdate:hover{
+	cursor: pointer;
+}

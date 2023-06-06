@@ -1,0 +1,155 @@
+.logintop {
+	font-size: 4rem;
+}
+.loginlogo {
+	margin-left: 20vw;
+}
+.loginmain {
+	width: 99vw;
+	height: 80vh;
+	background: url(../assets/mainbackground.jpg) no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loginform {
+	width: 35rem;
+	height: 35rem;
+	background-color: rgba(246, 250, 253,0.5);
+	border-radius: 5px;
+}
+.logintip {
+	margin: 15px 10px;
+	width: 33rem;
+	height: 6rem;
+	line-height: 6rem;
+	color: black;
+	font-size: 1.8rem;
+	border-bottom: #DCDCDC solid 1px;
+}
+.logininput {
+	margin: 15px 10px;
+	width: 33rem;
+	height: 5rem;
+}
+.loginbutton {
+	margin: 15px 10px;
+	width: 33rem;
+	height: 5rem;
+	text-align: center;
+}
+.logintoregister {
+	margin: 15px 10px;
+	width: 33rem;
+	height: 3rem;
+}
+.inputicon {
+	display: inline-block;
+	position: relative;
+	width: 5rem;
+	height: 5rem;
+	border-right: 0px;
+	background-color: rgb(240, 248, 255);
+}
+.inputinput {
+	display: inline-block;
+	width: 28rem;
+	height: 5rem;
+	background-color: rgb(241,241,241);
+}
+.inputicon .el-icon {
+	vertical-align: text-bottom;
+    height: 100%;
+    width: 100%;
+    line-height: 5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    fill: currentColor;
+    color: var(--color);
+    font-size: 1.8rem;
+}
+.inputinput .el-input {
+    --el-input-height: var(--el-component-size);
+    position: absolute;
+    font-size: var(--el-font-size-base);
+    display: inline-flex;
+    width: 28rem;
+	height: 5rem;
+    line-height: var(--el-input-height);
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.inputinput .el-input {
+    --el-input-height: var(--el-component-size);
+    position: absolute;
+    font-size: var(--el-font-size-base);
+    display: inline-flex;
+    width: 28rem;
+    height: 5rem;
+    line-height: var(--el-input-height);
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.el-input__wrapper {
+
+  border: none !important;
+
+  box-shadow: none !important;
+
+  padding: 0px; 
+
+}
+.loginbutton .el-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+	width: 33rem;
+    line-height: 5rem;
+    height: 5rem;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+	font-size: 2.2rem !important;
+	font-weight: 700 !important;
+    text-align: center;
+    box-sizing: border-box;
+    outline: 0;
+    transition: .1s;
+    font-weight: var(--el-button-font-weight);
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    background-color: rgb(80, 137, 218);
+    border: var(--el-border);
+    border-color: var(--el-button-border-color);
+    padding: 8px 15px;
+    font-size: var(--el-font-size-base);
+    border-radius: 0px ;
+}
+.loginbutton span {
+	cursor: pointer;
+}
+.logintoregister span{
+	float:right;
+}
+.logintoregister a{
+	color: black;
+	cursor: pointer;
+}
+.logintoregister a:hover {
+	color: deepskyblue;
+}
+
+@media screen and (max-width:768px) {
+	.logintop {
+		display: none;
+	}
+	.loginform {
+		width: 100%;
+		height: 35rem;
+	}
+}

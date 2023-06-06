@@ -1,0 +1,86 @@
+/* 公共部分css */
+.core{
+	width: 1400px;
+	height: auto;
+	margin: 0 auto;
+	background-color: rgb(239, 244, 248);
+}
+.app{
+	min-width: 1888px;
+	/* position: relative; */
+}
+html,body {
+	font-size: 50%;
+}
+/* 把所有标签的内外边距清零 */
+*{
+margin: 0;
+padding: 0;
+}
+/* 使em 和 i 斜体的文字不倾斜 /
+em,
+i {
+font-style: normal;
+}
+/ 去掉li的小圆点 */
+li {
+list-style: none;
+}
+img ,
+/* border 0 照顾低版本浏览器,如果图片外面含了链接会有边框的问题 /border: 0;/ 取消图片底部有空白缝隙的问题 /vertical-align: middle;}/ 当鼠标经过button按钮的时候,鼠标变成小手 */
+button {
+cursor: pointer;
+}
+a {
+color: rgb(255,255,255);
+text-decoration: none;
+}
+a:hover {
+color: darkturquoise;
+}
+button,
+input {
+}
+body {
+color: #666;
+}
+.clearfix:after {
+visibility: hidden;
+clear: both;
+display: block;
+content: ".";
+height: 0;
+}
+.clearfix {
+*zoom: 1;
+}
+.bc {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 100vw;
+	background: url(../assets/mainbackground.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+.clsbtn {
+	display: none;
+	color: #000000 !important;
+}
+.clsbtn:hover {
+	cursor: pointer;
+}
+@media screen and (max-width:768px) {
+	.core {
+		width: 100vw;
+	}
+	.bc {
+		width: 100vw;
+	}
+	.clsbtn {
+		display: inline-block;
+		position: absolute;
+		right: 10px;
+		top: 5px;
+		font-size: 1.5rem;
+	}
+}

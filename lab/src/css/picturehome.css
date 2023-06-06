@@ -1,0 +1,228 @@
+.jaycore{
+	width: 1400px;
+	height: auto;
+	margin: 0 auto;
+	background-color: rgb(242, 242, 242);
+	background-size: 100% 100%;
+}
+.picturetop {
+	text-indent: 2em;
+	height: 100px;
+	/* background-color: red; */
+	width: 100%;
+	line-height: 100px;
+}
+.labnamee {
+	/* position: absolute; */
+	vertical-align: middle;
+	font-size: 35px;
+	color: white;
+	line-height: 100px;
+	font-family: "comic sans ms";
+	margin-left: 200px;
+}
+.picturetitle {
+	vertical-align: middle;
+	font-size: 35px;
+	color: white;
+	line-height: 100px;
+	font-family: "comic sans ms";
+	margin-left: 350px;
+}
+@media screen and (max-width:768px) {
+	.picturetop {
+		height: 50px!important;
+		line-height: 50px!important;
+	}
+	.labnamee {
+		display: none !important;
+	}
+	.picturetitle {
+		font-size: 2rem!important;
+		line-height: 50px!important;
+		font-family: "comic sans ms";
+		margin-left: 0px!important;
+	}
+	.jaycore {
+		width: 100vw !important;
+		/* background-size: auto!important; */
+		background: url(../assets/jaybgbg.jpg) repeat!important;
+	}
+	.picturecon {
+		height: auto !important;
+		width: 100vw!important;
+		/*  */
+		background-color: rgb(242, 242, 242);
+		margin-left: 0px!important;
+	}
+	.pictopfunction {
+		width: 100%;
+		height: 35px!important;
+		background-color: rgba(248, 249, 249,0.6);
+		border-bottom: #FFFFFF solid 1px;
+		margin: 0;
+	}
+	.yearsearch {
+		height: 35px!important;
+		margin-left: 0px!important;
+		width: 70vw!important;
+	}
+	.yearsearch li{
+		display: inline-block;
+		width: 10vw!important;
+		height: 35px!important;
+		line-height: 35px !important;
+		font-size: 3px!important;
+		margin-left: 0px !important;
+	}
+	.keysearch {
+		height: 35px!important;
+		width: 25vw!important;
+	}
+	.keysearch .el-input {
+		font-size: 1rem!important;
+		color: #000000!important;
+		position: absolute;
+		width: auto;
+		height: auto;
+		top: 2px!important;
+		right: 2px!important;
+		line-height: 35px !important;
+	}
+	.keysearch .el-icon {
+	    font-size: 1rem !important;
+	    color: rgb(176, 189, 218)!important;
+	    line-height: 1rem !important;
+	}
+	.pictureone {
+		margin: 18px !important;
+	}
+}
+.picturecon {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-between;
+	flex-wrap: wrap;
+	/* align-items: center; */
+	position: relative;
+	height: auto;
+	width: 1050px;
+	background-color: rgb(242, 242, 242);
+	margin-left: 110px;
+}
+.pictopfunction {
+	width: 100%;
+	height: 50px;
+	/* background-color: white; */
+	border-bottom: #FFFFFF solid 1px;
+	margin: 0;
+}
+.pictopfunction:hover {
+	color: #000000;
+	cursor: default;
+}
+.yearsearch {
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	line-height: 50px;
+	height: 50px;
+	width: 400px;
+	/* background-color: rgb(242,242,242); */
+}
+.yearsearch ul:hover{
+	color: #000000;
+}
+.yearsearch ul li:first-child{
+	color: black;
+	font-weight: 700;
+}
+.yearsearch ul li:first-child:hover{
+	color: black;
+	cursor: default;
+}
+.yearsearch li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 13px;
+	margin-left: 0px !important;
+}
+.keysearch {
+	position: relative;
+	/* margin: 0 auto; */
+	/* vertical-align: middle; */
+	display: inline-block;
+	height: 50px;
+	width: 300px;
+	float: right;
+}
+.keysearch .el-input {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 10px;
+	right: 20px;
+	line-height: 50px !important;
+}
+.pictureone {
+	height: 200px;
+	width: 170px;
+	margin: 20px;
+	border-radius: 3px;
+	background-color: white;
+}
+.pictureone:hover {
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.picpic {
+	width: 163px;
+	height: 160px;
+	margin: 3px;
+	background-color: white;
+}
+.picpic img{
+	width: 163px;
+	height: 160px;
+}
+.picird {
+	width: 163px;
+	height: 30px;
+	line-height: 30px;
+	margin: 3px;
+	font-size: 14px;
+	background-color: white;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+.picirdcon {
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	width: 123px;
+	height: 100%;
+	/* background-color: #DCDCDC; */
+	/* border-right: #000000 solid 1px; */
+}
+.picirdyear {
+	float: right;
+	display: inline-block;
+	width: 40px;
+	height: 100%;
+	/* background-color: #DCDCDC; */
+}
+.bottompage {
+	position: absolute;
+	bottom: 0;
+	left: 400px;
+	height: 30px;
+}

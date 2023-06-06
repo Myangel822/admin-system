@@ -1,0 +1,92 @@
+/* 成果主页css */
+.leftnav {
+	display: inline-block !important;
+	float: left;
+	background-color: white;
+	width: 220px;
+	height: auto;
+	margin: 20px;
+}
+.leftnav ul{
+	display: flex;
+	flex-direction: column;
+}
+.leftnav li{
+	display: block;
+	width: 100%;
+	height: 49px;
+	line-height: 49px;
+	text-indent: 2em;
+	font-size: 1.8rem;
+	margin: 0;
+	border-bottom: #DCDCDC solid 1px;
+}
+@media screen and (max-width:768px) {
+.leftnav {
+	margin: 0 !important;
+	width: 100vw !important;
+}
+.leftnav ul{
+	display: flex;
+	flex-direction: row !important;
+}
+.leftnav li{
+	display: inline-block!important;
+	width: 14.3%!important;
+	height: 35px!important;
+	line-height: 35px !important;
+	font-size: 5px!important;
+
+}
+.core .leftnav .navtitle {
+	display: none !important;
+}
+.rightcontent {
+	margin: 0 !important;
+	width: 100vw !important;
+	
+}
+.rightcontent ul{
+	display: flex;
+	margin-left: 0!important;
+	width: 100% !important;
+	flex-direction: column;
+}
+}
+.rightcontent {
+	background-color: white;
+	float: left;
+	width: 1000px;
+	height: auto;
+	display: inline-block !important;
+	margin: 20px;
+	font-size: 1.5rem;
+}
+.rightcontent ul{
+	display: flex;
+	margin-left: 50px;
+	width: 800px;
+	flex-direction: column;
+}
+.rightcontent li {
+	display: block;
+	width: 100%;
+	height: 49px;
+	line-height: 49px;
+	margin: 0;
+	border-bottom: #DCDCDC solid 1px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.core .leftnav .navtitle {
+	text-indent: 1em;
+	height: 69px;
+	line-height: 69px;
+	font-size: 25px;
+	color: white;
+	background: url(../assets/navbackground.jpg); 
+}
+.core .leftnav .navtitle:hover {
+	cursor: default;
+}

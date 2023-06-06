@@ -1,0 +1,39 @@
+/* 页面底部css */
+.footer {
+	position: relative;
+	width: 100vw;
+	height: 15vh;
+	background: url(../assets/navbackground.jpg) no-repeat;
+	background-size: 100% 100%; 
+}
+.footer ul{
+	color: #FFFFFF;
+	text-indent: 8em;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	margin-left: 1vw;
+	height: 12.5rem;
+	width: 30vw;
+}
+ul:hover {
+	cursor: default;
+}
+.footertips{
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+}
+.footer ul li{
+	text-indent: 0em;
+	display: block;
+	font-size: 12px;
+	height: 2rem;
+	width: 30vw;
+	line-height: normal;
+}
+@media screen and (max-width:768px) {
+	.footer {
+		display: none;
+	}
+}

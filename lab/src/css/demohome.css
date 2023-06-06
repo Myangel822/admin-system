@@ -1,0 +1,147 @@
+.demotopp{
+	text-indent: 2em;
+	height: 100px;
+	/* background-color: red; */
+	width: 100%;
+	line-height: 100px;
+}
+.labnamee {
+	/* position: absolute; */
+	vertical-align: middle;
+	font-size: 35px;
+	color: white;
+	line-height: 100px;
+	font-family: "comic sans ms";
+	margin-left: 200px;
+}
+@media screen and (max-width:768px) {
+	.demotopp{
+		height: 50px!important;
+		line-height: 50px!important;
+	}
+	.labnamee {
+		display: none !important;
+	}
+	.demotitle {
+		line-height: 50px!important;
+		font-size: 2rem !important;
+		margin-left: 0!important;
+	}
+	.jaycore {
+		width: 100vw !important;
+		/* background-size: auto!important; */
+		background: url(../assets/jaybgbg.jpg) repeat!important;
+	}
+	.demolist {
+		width: 100vw!important;
+	}
+	.demolist li{
+		width: 100vw !important;
+		height: 350px!important;
+		margin: 0!important;
+	}
+	.demotop{
+		height: 50px!important;
+
+	}
+	.demoname{
+		line-height: 50px!important;
+		width: 30vw!important;
+		height: 50px !important;
+		font-size: 15px !important;
+		margin-left: 0px!important;
+
+	}
+	.demointroduce{
+		line-height: 50px!important;
+		width: 65vw!important;
+		height: 50px !important;
+		margin-left: 0px!important;
+	}
+	.demointroduce p{
+		width: 100%!important;
+		height: 50px !important;
+		font-size: 8px !important;
+	}
+	.demovideo{
+		height: 300px!important;
+		width: 100vw!important;
+		margin: 0!important;
+	}
+}
+.demotitle {
+	vertical-align: middle;
+	font-size: 35px;
+	color: white;
+	line-height: 100px;
+	font-family: "comic sans ms";
+	margin-left: 350px;
+}
+.demolist {
+	display: flex;
+	flex-direction: column;
+	width: 750px;
+	height: auto;
+}
+.demolist li{
+	margin-top: 50px;
+	margin-left: 200px;
+	display: block;
+	height: 550px;
+	width: 750px;
+	background-color: #FFFFFF;
+}
+.demolist li:hover{
+	cursor: default;
+	color: rgb(102, 102, 102);
+}
+.demotop{
+	height: 80px;
+	width: 100%;
+}
+.demoname{
+	display: -webkit-box;
+	float: left;
+	width: 150px;
+	height: 80px;
+	font-size: 25px;
+	font-weight: 700;
+	margin-left: 50px;
+	text-align: center;
+}
+.demointroduce{
+	display: inline-block;
+	display: -webkit-box;
+	float: left;
+	width: 500px;
+	height: 80px;
+	margin-left: 20px;
+}
+.demointroduce p{
+	width: 500px;
+	height: 80px;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-indent: 0em;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+.demovideo{
+	width: 670px;
+	height: 430px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.vd {
+	width: 100%;
+	height: 100%;
+}
+.jaycore{
+	width: 1400px;
+	height: auto;
+	margin: 0 auto;
+	background-color: rgb(242, 242, 242);
+	background-size: 100% 100%;
+}

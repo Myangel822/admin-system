@@ -1,0 +1,48 @@
+.leftnav {
+	display: inline-block;
+	float: left;
+	background-color: white;
+	width: 220px;
+	height: auto;
+	margin: 20px;
+}
+.leftnav ul{
+	display: flex;
+	flex-direction: column;
+}
+.leftnav li{
+	display: block;
+	width: 100%;
+	height: 49px;
+	line-height: 49px;
+	text-indent: 2em;
+	font-size: 1.8rem;
+	margin: 0;
+	border-bottom: #DCDCDC solid 1px;
+}
+.rightcontent {
+	background-color: white;
+	float: left;
+	width: 1000px;
+	height: auto;
+	display: inline-block;
+	margin: 20px;
+	font-size: 1.5rem;
+}
+.rightcontent .cell span:hover {
+	cursor: pointer;
+}
+.core .leftnav .navtitle {
+	text-indent: 1em;
+	height: 69px;
+	line-height: 69px;
+	font-size: 25px;
+	color: white;
+	background: url(../assets/navbackground.jpg); 
+}
+.core .leftnav .navtitle:hover {
+	cursor: default;
+}
+.newonebtn {
+	margin-bottom: 15px;
+}

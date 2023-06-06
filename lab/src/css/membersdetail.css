@@ -1,0 +1,218 @@
+/* 成员详情css */
+.memberinfo {
+	width: 100%;
+	/* height: auto; */
+	/* border: #DCDCDC solid 1px; */
+	border-top: #DCDCDC solid 1px;
+	margin-bottom: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/* height: 500px; */
+}
+.memberintroduce{
+	width: 100%;
+	/* height: auto; */
+	/* border: #DCDCDC solid 1px; */
+	/* height: 350px; */
+	border-top: #DCDCDC solid 1px;
+	margin-bottom: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.memberstudy{
+	width: 100%;
+	/* height: auto; */
+	/* border: #DCDCDC solid 1px; */
+	/* height: 350px; */
+	border-top: #DCDCDC solid 1px;
+	margin-bottom: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.memberfruit{
+	width: 100%;
+	/* height: 1000px; */
+	/* height: auto; */
+	/* border: #DCDCDC solid 1px; */
+	border-top: #DCDCDC solid 1px;
+	margin-bottom: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.top {
+	height: 100px;
+	width: 100%;
+	/* background-color: #42B983 */
+}
+.membertitle {
+	display: inline-block;
+	height: 100%;
+	line-height: 100px;
+	font-size: 36px;
+	font-weight: 700px;
+	/* background-color: #C81623; */
+	width: 200px;
+	float: left;
+	margin-left: 50px;
+}
+.membermenu {
+	display: inline-block;
+	height: 100%;
+	/* background-color: #C81623; */
+	width: 350px;
+	float: right;
+	line-height: 100px;
+	margin-right: 50px;
+}
+.membermenu a {
+	color: #000000;
+	margin-left: 15px;
+}
+@media screen and (max-width:768px) {
+	.top {
+		height: 50px!important;
+	}
+	.membertitle {
+		line-height: 50px!important;
+		font-size: 2rem!important;
+		/* background-color: #C81623; */
+		width: 45vw!important;
+		margin-left: 0px!important;
+	}
+	.membermenu {
+		/* background-color: #C81623; */
+		width: 55vw!important;
+		float: right;
+		line-height: 50px!important;
+		margin-right: 0px!important;
+	}
+	.membermenu a {
+		margin-left: 5px!important;
+	}
+}
+.content {
+	/* background-color: #666666; */
+	width: 100%;
+	height: 350px;
+}
+.memberpicture {
+	display: inline-block;
+	height: 300px;
+	width: 225px;
+	margin: 20px;
+	margin-left: 50px;
+	float: left;
+	border: #DCDCDC solid 1px;
+	/* background-color: #C81623; */
+}
+.memberdetailinfo {
+	display: inline-block;
+	height: 300px;
+	width: 800px;
+	margin: 20px;
+	margin-left: 100px;
+	float: left;
+	/* background-color: #C81623; */
+}
+.content ul {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.content li {
+	display: block;
+	line-height: 35px;
+	height: 35px;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 18px;
+	/* background-color: #DCDCDC; */
+}
+@media screen and (max-width:768px) {
+
+.memberpicture {
+	height: 175px!important;
+	width: 145px!important;
+	margin-left: 20px!important;
+}
+.memberdetailinfo {
+	width: 175px!important;
+	margin-left: 20px!important;
+
+}
+.content li {
+	display: block;
+	line-height: 35px;
+	height: 35px;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 15px;
+	font-size: 1rem;
+	/* background-color: #DCDCDC; */
+}
+}
+
+.fruit {
+	display: flex;
+	flex-direction: column;
+}
+.fruit ul {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.fruit li {
+	text-indent: 2em;
+	display: block;
+	line-height: 35px;
+	height: 35px;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 18px;
+	/* background-color: #DCDCDC; */
+}
+@media screen and (max-width:768px) {
+	.fruit li {
+	font-size: 1rem;
+	margin-bottom: 10px!important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	}
+}
+.content li:hover {
+	cursor: default;
+	color: black;
+	/* background-color: #DCDCDC; */
+}
+.fruit li:hover {
+	cursor: default;
+	color: black;
+	/* background-color: #DCDCDC; */
+}
+/* .memberintroduce {
+
+} */
+.top a:hover {
+	color: darkturquoise;
+}
+.ccontent {
+	height: auto;
+	font-size: 20px;
+	width: 1200px;
+	/* margin-left: 100px; */
+}
+.ccontent p {
+	text-indent: 2em;
+}
+@media screen and (max-width:768px) {
+	.ccontent {
+		height: auto;
+		font-size: 1rem;
+		width: 100vw;
+		margin-left:0px;
+	}
+	.ccontent p {
+		text-indent: 2em;
+	}
+}
+.memberpicture img {
+	height: 100%;
+	width: 100%;
+}

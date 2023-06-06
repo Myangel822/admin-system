@@ -1,0 +1,112 @@
+/* 顶部导航css */
+
+.nav {
+	/* position: fixed; */
+	/* display: flex; */
+	height: 100px;
+	width: 100vw;
+	/* top: 0; */
+	background: url(../assets/navbackground.jpg) no-repeat;
+	background-size: 100% 100%; 
+	z-index: 1;
+}
+.ydmu {
+	display: none !important;
+}
+
+.lablogo {
+	/* position: absolute; */
+	height: 100%;
+	width: 355px;
+	display: inline-block;
+	float: left;
+	margin-left: 200px;
+}
+
+.lablogo img {
+	/* position: absolute; */
+	height: 100%;
+	width: 100%;
+	/* opacity: 0.1; */
+}
+.labname {
+	/* position: absolute; */
+	vertical-align: middle;
+	font-size: 42px;
+	color: white;
+	line-height: 100px;
+	font-family: "comic sans ms";
+}
+span {
+	cursor: default;
+}
+.navmenu {
+	/* position: absolute; */
+	height: 100%;
+	width: auto;
+	display: inline-block;
+	font-size: 23px;
+	color: white;
+	float: right;
+	/* right:200px */
+	margin-right: 200px;
+}
+ul{
+	height: 100%
+	
+}
+li {
+	float: left;
+	height: 100%;
+	display: inline-block;
+	line-height: 100px;
+	margin-left: 25px;
+}
+li:hover {
+	/* background-color: #E0E3E9; */
+	cursor: pointer;
+	color: darkturquoise;
+}
+@media screen and (max-width:768px) {
+	.ydmu {
+		display: block !important;
+	}
+	.lablogo {
+		display: none;
+	}
+	.pcul {
+		display: none;
+	}
+	.labname {
+		font-size: 2.5rem;
+		line-height: 5rem;
+	}
+	.navmenu {
+		margin-right: 2rem;
+		line-height: 5rem;
+	}
+	nav {
+		height: 5rem;
+		width: 100vw;
+	}
+	.el-dropdown:hover{
+		cursor:pointer!important;
+	}
+	.el-dropdown{
+		height: 100% !important;
+		line-height: 5rem !important;
+	}
+	.el-icon {
+		font-size: 2.5rem !important;
+		color: white !important;
+		line-height: 5rem !important;
+	}
+	.nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-content: space-between;
+		/* align-items: center; */
+		height: 5rem;
+	}
+}
